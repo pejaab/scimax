@@ -876,16 +876,6 @@ A minor mode is an easy way to turn font-locking on and off. All we do here is t
 
  #+RESULTS:
 
-** Scimax menu
-
-This adds a menu to scimax for the editmarks.
-
-#+BEGIN_SRC emacs-lisp
-(easy-menu-change '("Scimax") "editmarks" sem-menu-items "Update scimax")
-#+END_SRC
-
-#+RESULTS:
-
 ** Convenience functions
 *** Utilities
 
